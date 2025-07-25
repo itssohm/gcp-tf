@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "sohm" {
-  name          = "tf-bucket"
+resource "google_storage_bucket" "tf-cicd-bucket" {
+  name          = "tf-cicd-bucket"
   location      = "US"
   force_destroy = true
   project       = "singular-style-462604-p1"
