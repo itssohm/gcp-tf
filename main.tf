@@ -2,7 +2,7 @@ resource "google_storage_bucket" "my-buck" {
   name          = "tf-bucket"
   location      = "US"
   force_destroy = true
-  prject        = "singular-style-462604-p1"
+  project       = "singular-style-462604-p1"
   lifecycle_rule {
     condition {
       age = 3
